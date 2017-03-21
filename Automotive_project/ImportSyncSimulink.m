@@ -1,0 +1,3 @@
+addpath('C:\Users\s162602\IBM\Rational\Rhapsody\8.1.5\Share\etc');
+addpath('C:\Users\s162602\Documents\Quartile 3\Automotive Systems Project\SysML model\Automotive_project');
+SimulinkDataExtractor('C:\Users\s162602\Documents\Quartile 3\Automotive Systems Project\SysML model\Automotive_project\pathestimator.slx', 'C:\Users\s162602\Documents\Quartile 3\Automotive Systems Project\SysML model\Automotive_project\SimDataFile.txt');

@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 	- _id = GUID d31ae43e-a257-4137-a176-d65fd80d1660;
 	- _myState = 139264;
 	- _name = "DefaultComponent";
-	- _modifiedTimeWeak = 2.15.2017::14:38:39;
+	- _modifiedTimeWeak = 3.21.2017::10:22:18;
 	- m_buildType = Executable;
 	- m_libraries = "";
 	- m_additionalSources = "";
@@ -34,7 +34,26 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 			- _id = GUID d18c3ed9-8c8b-41c9-bf1b-1b7508b3970a;
 			- _myState = 8192;
 			- _name = "DefaultConfig";
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 649f6b99-4842-41bb-adb6-1b3f3cf4bac8;
+					- _myState = 2048;
+					- _name = "Path_estimator";
+					- _modifiedTimeWeak = 3.21.2017::10:22:18;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "BDD_pkg.sbs";
+						- _subsystem = "BDD_pkg";
+						- _class = "Path_estimation_and_control";
+						- _name = "Path_estimator";
+						- _id = GUID b4e6a2a3-75e7-40ee-bb36-4ca042b189bb;
+					}
+				}
+			}
+			- _modifiedTimeWeak = 3.21.2017::10:22:18;
+			- _lastID = 1;
 			- _scopeType = Explicit;
 			- _libraries = "";
 			- _additionalSources = "";
@@ -66,7 +85,7 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 					- size = 0;
 				}
 			}
-			- weakCGTime = 1.2.1990::0:0:0;
+			- weakCGTime = 3.21.2017::10:22:18;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- AnimScopeElements = { IRPYRawContainer 
 				- size = 0;
@@ -76,14 +95,14 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 		}
 	}
 	- HandlesInMe = { IRPYRawContainer 
-		- size = 3;
+		- size = 7;
 		- value = 
 		{ IHandle 
 			- _m2Class = "ISubsystem";
-			- _filename = "Default.sbs";
+			- _filename = "SystemContextPkg.sbs";
 			- _subsystem = "";
 			- _class = "";
-			- _name = "Default";
+			- _name = "SystemContextPkg";
 			- _id = GUID 2e894ef7-fcce-442b-a0f7-7c7ba407a226;
 		}
 		{ IHandle 
@@ -102,6 +121,38 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 			- _name = "MISRAC++";
 			- _id = GUID 5717d983-7bb5-4aba-bdc8-41bcb977f568;
 		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Actors.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Actors";
+			- _id = GUID 644605bc-84d0-4d8a-835c-acc288038c06;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "RequirmentsPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "RequirmentsPkg";
+			- _id = GUID 3618da38-8f14-473a-a32f-53a9d83afbb2;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "BDD_pkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "BDD_pkg";
+			- _id = GUID fbfaa07d-16a3-4e58-8e31-05d2490033b9;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT\\Profiles\\Simulink\\Simulink.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Simulink";
+			- _id = GUID a46b1a55-c20e-44bd-aed6-13d936f36a48;
+		}
 	}
 	- VariationPoints = { IRPYRawContainer 
 		- size = 0;
@@ -109,7 +160,7 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 	- SelectedVariants = { IRPYRawContainer 
 		- size = 0;
 	}
-	- weakCGTime = 2.15.2017::14:38:39;
+	- weakCGTime = 3.21.2017::10:22:18;
 	- strongCGTime = 1.2.1990::0:0:0;
 }
 

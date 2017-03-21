@@ -1,0 +1,5 @@
+MATLAB_ROOT=C:\Program Files\MATLAB\R2016a
+MultiInstanceCode=off
+In1 Inport auto -1
+In2 Inport auto -1
+Out1 Outport auto -1

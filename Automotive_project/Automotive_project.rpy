@@ -2,6 +2,31 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 { IProject 
 	- _id = GUID 8e1ca8a4-c28c-41c6-9341-06a9f5dd41ac;
 	- _myState = 8192;
+	- _properties = { IPropertyContainer 
+		- Subjects = { IRPYRawContainer 
+			- size = 1;
+			- value = 
+			{ IPropertySubject 
+				- _Name = "Model";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Simulink";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "MatlabExePath";
+								- _Value = "C:\\Program Files\\MATLAB\\R2016a\\bin\\win64\\MATLAB.exe";
+								- _Type = String;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 	- _name = "Automotive_project";
 	- Dependencies = { IRPYRawContainer 
 		- size = 1;
@@ -45,7 +70,7 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 			- _id = GUID 052b8171-a32b-4f45-a829-5585f79f9deb;
 		}
 	}
-	- _modifiedTimeWeak = 3.19.2017::15:54:26;
+	- _modifiedTimeWeak = 3.21.2017::10:21:52;
 	- _lastID = 3;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
@@ -88,7 +113,7 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 		}
 	}
 	- Subsystems = { IRPYRawContainer 
-		- size = 6;
+		- size = 7;
 		- value = 
 		{ ISubsystem 
 			- fileName = "SystemContextPkg";
@@ -117,6 +142,12 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 		{ ISubsystem 
 			- fileName = "BDD_pkg";
 			- _id = GUID fbfaa07d-16a3-4e58-8e31-05d2490033b9;
+		}
+		{ IProfile 
+			- fileName = "Simulink";
+			- _persistAs = "$OMROOT\\Profiles\\Simulink";
+			- _id = GUID a46b1a55-c20e-44bd-aed6-13d936f36a48;
+			- _isReference = 1;
 		}
 	}
 	- Diagrams = { IRPYRawContainer 
