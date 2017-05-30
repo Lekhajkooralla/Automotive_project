@@ -45,7 +45,7 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 			- _id = GUID 052b8171-a32b-4f45-a829-5585f79f9deb;
 		}
 	}
-	- _modifiedTimeWeak = 5.30.2017::15:34:41;
+	- _modifiedTimeWeak = 5.30.2017::15:37:46;
 	- _lastID = 9;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
@@ -258,7 +258,7 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "5.30.2017::15:34:41";
+			- _lastModifiedTime = "5.30.2017::15:37:46";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID d7e462da-25f0-479e-8c91-75c9dab5945d;
 				- m_type = 0;
@@ -282,7 +282,7 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 3;
+				- elementList = 4;
 				{ CGIClass 
 					- _id = GUID 36af2946-8e4b-46f3-9d19-d899d7dd18d2;
 					- m_type = 78;
@@ -499,6 +499,118 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 						}
 						{ CGICompartment 
 							- _id = GUID 666cf5f6-728b-4846-9903-81c8f559c4a7;
+							- m_name = "Operation";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
+					}
+					- Attrs = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
+				{ CGIClass 
+					- _id = GUID 67a8a2b7-f581-45a4-96ed-cecb6c2d8a64;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "ObjectModelGe";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 2;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Block";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Compartments";
+												- _Value = "";
+												- _Type = MultiLine;
+											}
+										}
+									}
+									{ IPropertyMetaclass 
+										- _Name = "Class";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Compartments";
+												- _Value = "";
+												- _Type = MultiLine;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 87;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClass";
+						- _filename = "systemContext_pkg.sbs";
+						- _subsystem = "systemContext_pkg";
+						- _class = "";
+						- _name = "block_18";
+						- _id = GUID fa06219b-2b20-4930-9fed-1b6720aef2e3;
+					}
+					- m_pParent = GUID 36af2946-8e4b-46f3-9d19-d899d7dd18d2;
+					- m_name = { CGIText 
+						- m_str = "block_18";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2056;
+					- m_transform = 0.0283286 0 0 0.0311943 182.943 265.737 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ CGICompartment 
+							- _id = GUID 5fd1ad51-0521-4bd1-93c2-84bd355ed84c;
+							- m_name = "Attribute";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
+						{ CGICompartment 
+							- _id = GUID 40a8b438-9f38-44fc-a597-7708c46df5bd;
 							- m_name = "Operation";
 							- m_displayOption = Explicit;
 							- m_bShowInherited = 0;
