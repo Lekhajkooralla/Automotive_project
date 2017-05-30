@@ -3,9 +3,9 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 	- _id = GUID 644605bc-84d0-4d8a-835c-acc288038c06;
 	- _myState = 8192;
 	- _name = "Actors";
-	- _modifiedTimeWeak = 3.17.2017::18:41:28;
+	- _modifiedTimeWeak = 3.20.2017::15:10:5;
 	- _lastID = 4;
-	- weakCGTime = 3.17.2017::18:41:28;
+	- weakCGTime = 3.20.2017::15:10:5;
 	- strongCGTime = 2.15.2017::14:41:55;
 	- _defaultComposite = GUID e2c5395d-10e8-4874-9bcd-a06903d6df7f;
 	- _eventsBaseID = -1;
@@ -16,8 +16,8 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 			- _id = GUID e2c5395d-10e8-4874-9bcd-a06903d6df7f;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 2.15.2017::14:52:24;
-			- weakCGTime = 2.15.2017::14:52:24;
+			- _modifiedTimeWeak = 3.17.2017::18:41:28;
+			- weakCGTime = 3.17.2017::18:41:28;
 			- strongCGTime = 2.15.2017::14:41:55;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -33,7 +33,7 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 			- _id = GUID a192eb6f-29a3-455b-acd7-452f950285c1;
 			- _myState = 8192;
 			- _name = "Controller of Distribution";
-			- _modifiedTimeWeak = 3.17.2017::18:41:28;
+			- _modifiedTimeWeak = 3.20.2017::15:8:38;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "SystemContextPkg.sbs";
@@ -42,14 +42,14 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 				- _name = "block definition diagram_0";
 				- _id = GUID 9f0fd6bd-474c-44c7-b4d3-781758e06402;
 			}
-			- weakCGTime = 3.17.2017::18:41:28;
+			- weakCGTime = 3.20.2017::15:8:38;
 			- strongCGTime = 2.15.2017::14:42:15;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 1;
+				- size = 5;
 				- value = 
 				{ IAssociationEnd 
 					- _id = GUID eee24916-e66d-43c6-9919-afebbcbbc5c4;
@@ -59,19 +59,123 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
-						- _filename = "SystemContextPkg.sbs";
-						- _subsystem = "SystemContextPkg";
+						- _filename = "BDD_pkg.sbs";
+						- _subsystem = "BDD_pkg";
 						- _class = "";
 						- _name = "Autonomous_truck";
 						- _id = GUID 6fa7365d-8547-49e2-abc5-122efac65fd9;
 					}
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
-						- _filename = "SystemContextPkg.sbs";
-						- _subsystem = "SystemContextPkg";
+						- _filename = "BDD_pkg.sbs";
+						- _subsystem = "BDD_pkg";
 						- _class = "Autonomous_truck";
 						- _name = "itsController of Distribution";
 						- _id = GUID de37c346-1189-48b8-861e-971fd57c4d00;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 9251d02a-4afe-4df9-9238-5ed04afafd5f;
+					- _myState = 10240;
+					- _name = "itsDocking";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "UsecasesPkg.sbs";
+						- _subsystem = "UsecasesPkg";
+						- _class = "";
+						- _name = "Docking";
+						- _id = GUID ccb25f35-e519-4ec2-bd8e-54f38d80dca7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "UsecasesPkg.sbs";
+						- _subsystem = "UsecasesPkg";
+						- _class = "Docking";
+						- _name = "itsController of Distribution";
+						- _id = GUID f307fad3-939f-4d8f-9856-cd5018de7b10;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 972de3bc-1a79-445b-b675-2fbdc07420d6;
+					- _myState = 10240;
+					- _name = "itsUndocking";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "UsecasesPkg.sbs";
+						- _subsystem = "UsecasesPkg";
+						- _class = "";
+						- _name = "Undocking";
+						- _id = GUID 53e45b39-1f7c-4257-acdb-e40cce0cb566;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "UsecasesPkg.sbs";
+						- _subsystem = "UsecasesPkg";
+						- _class = "Undocking";
+						- _name = "itsController of Distribution";
+						- _id = GUID 579bb35e-0a50-4cab-9969-de06567fadfa;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 42edced6-6ae3-47d2-a621-a9b7ce1851c2;
+					- _myState = 10240;
+					- _name = "itsDriving";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "UsecasesPkg.sbs";
+						- _subsystem = "UsecasesPkg";
+						- _class = "";
+						- _name = "Driving";
+						- _id = GUID e71df944-7f1f-4090-8633-9530ff73d328;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "UsecasesPkg.sbs";
+						- _subsystem = "UsecasesPkg";
+						- _class = "Driving";
+						- _name = "itsController of Distribution";
+						- _id = GUID 385f0028-624e-49bb-9f82-24a325d693c8;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 17af78b0-6f6e-422e-b588-51143d578535;
+					- _myState = 10240;
+					- _name = "itsParking";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "UsecasesPkg.sbs";
+						- _subsystem = "UsecasesPkg";
+						- _class = "";
+						- _name = "Parking";
+						- _id = GUID 29809054-8360-4ff0-9ca3-37aab4a08c0d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "UsecasesPkg.sbs";
+						- _subsystem = "UsecasesPkg";
+						- _class = "Parking";
+						- _name = "itsController of Distribution";
+						- _id = GUID a5e41871-87a1-408e-b643-86ed376b3ed4;
 					}
 					- _linkName = "";
 					- _linkType = Assoc;
@@ -84,7 +188,7 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 			- _id = GUID 2997c90d-6dbe-44a2-b554-25eb18fb8418;
 			- _myState = 8192;
 			- _name = "Driver";
-			- _modifiedTimeWeak = 3.17.2017::18:41:28;
+			- _modifiedTimeWeak = 3.20.2017::15:10:14;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "SystemContextPkg.sbs";
@@ -93,14 +197,14 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 				- _name = "block definition diagram_0";
 				- _id = GUID 9f0fd6bd-474c-44c7-b4d3-781758e06402;
 			}
-			- weakCGTime = 3.17.2017::18:41:28;
+			- weakCGTime = 3.20.2017::15:10:14;
 			- strongCGTime = 2.15.2017::14:42:43;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 1;
+				- size = 2;
 				- value = 
 				{ IAssociationEnd 
 					- _id = GUID 80f38ec9-86c8-472d-8946-f73256875da0;
@@ -110,19 +214,45 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
-						- _filename = "SystemContextPkg.sbs";
-						- _subsystem = "SystemContextPkg";
+						- _filename = "BDD_pkg.sbs";
+						- _subsystem = "BDD_pkg";
 						- _class = "";
 						- _name = "Autonomous_truck";
 						- _id = GUID 6fa7365d-8547-49e2-abc5-122efac65fd9;
 					}
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
-						- _filename = "SystemContextPkg.sbs";
-						- _subsystem = "SystemContextPkg";
+						- _filename = "BDD_pkg.sbs";
+						- _subsystem = "BDD_pkg";
 						- _class = "Autonomous_truck";
 						- _name = "itsDriver";
 						- _id = GUID 9b178862-7087-4115-8e07-152c1f2b186e;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 3bb8e115-4633-4958-8aeb-287789df8151;
+					- _myState = 10240;
+					- _name = "itsParking";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "UsecasesPkg.sbs";
+						- _subsystem = "UsecasesPkg";
+						- _class = "";
+						- _name = "Parking";
+						- _id = GUID 29809054-8360-4ff0-9ca3-37aab4a08c0d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "UsecasesPkg.sbs";
+						- _subsystem = "UsecasesPkg";
+						- _class = "Parking";
+						- _name = "itsDriver";
+						- _id = GUID 55eed519-e491-44b5-8b50-67a8dedf6f4b;
 					}
 					- _linkName = "";
 					- _linkType = Assoc;
@@ -161,16 +291,16 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
-						- _filename = "SystemContextPkg.sbs";
-						- _subsystem = "SystemContextPkg";
+						- _filename = "BDD_pkg.sbs";
+						- _subsystem = "BDD_pkg";
 						- _class = "";
 						- _name = "Autonomous_truck";
 						- _id = GUID 6fa7365d-8547-49e2-abc5-122efac65fd9;
 					}
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
-						- _filename = "SystemContextPkg.sbs";
-						- _subsystem = "SystemContextPkg";
+						- _filename = "BDD_pkg.sbs";
+						- _subsystem = "BDD_pkg";
 						- _class = "Autonomous_truck";
 						- _name = "itsEnvironment";
 						- _id = GUID 5aaae8f7-f15b-4d5b-a50b-219b149c1a82;
@@ -212,16 +342,16 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
-						- _filename = "SystemContextPkg.sbs";
-						- _subsystem = "SystemContextPkg";
+						- _filename = "BDD_pkg.sbs";
+						- _subsystem = "BDD_pkg";
 						- _class = "";
 						- _name = "Autonomous_truck";
 						- _id = GUID 6fa7365d-8547-49e2-abc5-122efac65fd9;
 					}
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
-						- _filename = "SystemContextPkg.sbs";
-						- _subsystem = "SystemContextPkg";
+						- _filename = "BDD_pkg.sbs";
+						- _subsystem = "BDD_pkg";
 						- _class = "Autonomous_truck";
 						- _name = "itsSensors";
 						- _id = GUID fee90ef7-97a8-46a4-93c5-c2ed8ea56b12;

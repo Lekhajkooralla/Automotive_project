@@ -1,0 +1,16 @@
+I-Logix-RPY-Archive version 8.12.0 * 9728113
+
+- filesTable = { IRPYRawContainer 
+	- size = 9;
+	- value = "main_project.rpy" ""
+	"main_project_rpy\\BDD_Main_pkg.sbs" "BDD_Main_pkg"
+	"main_project_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"main_project_rpy\\Powertrains.sbs" "Powertrains"
+	"main_project_rpy\\RTSE.sbs" "RTSE"
+	"main_project_rpy\\VD.sbs" "VD"
+	"main_project_rpy\\actors_pkg.sbs" "actors_pkg"
+	"main_project_rpy\\systemContext_pkg.sbs" "systemContext_pkg"
+	"main_project_rpy\\usecase_pkg.sbs" "usecase_pkg"
+	
+}
+

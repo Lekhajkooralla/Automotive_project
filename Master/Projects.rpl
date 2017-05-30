@@ -1,0 +1,23 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9728113
+{ IWorkspace 
+	- m_SavedActiveProjectsName = "Automotive_project";
+	- _id = GUID 93116079-5b02-4006-8ae2-d3d7ba94db8d;
+	- _myState = 8192;
+	- _name = "Projects";
+	- _modifiedTimeWeak = 1.2.1990::0:0:0;
+	- Declaratives = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IProject 
+			- fileName = "main_project";
+			- _persistAs = "C:\\Users\\s162602\\OneDrive\\main_project\\Master";
+			- _id = GUID 11119d9e-f530-411c-8ae8-d9d2d14ef626;
+		}
+		{ IProject 
+			- fileName = "Automotive_project";
+			- _persistAs = "C:\\Users\\s162602\\Documents\\Quartile 3\\Automotive Systems Project\\SysML model\\Automotive_project";
+			- _id = GUID 8e1ca8a4-c28c-41c6-9341-06a9f5dd41ac;
+		}
+	}
+}
+

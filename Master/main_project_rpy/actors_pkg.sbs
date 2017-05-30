@@ -1,0 +1,401 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9728113
+{ ISubsystem 
+	- _id = GUID 23022a44-470d-471e-b2e3-0048ce86f302;
+	- _myState = 8192;
+	- _name = "actors_pkg";
+	- _modifiedTimeWeak = 3.25.2017::15:15:40;
+	- _lastID = 2;
+	- weakCGTime = 3.25.2017::15:15:40;
+	- strongCGTime = 3.24.2017::19:1:57;
+	- _defaultComposite = GUID 722836f1-d5a2-4860-9fb5-3a9a1db3c815;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 7;
+		- value = 
+		{ IClass 
+			- _id = GUID 722836f1-d5a2-4860-9fb5-3a9a1db3c815;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 3.24.2017::19:38:29;
+			- weakCGTime = 3.24.2017::19:38:29;
+			- strongCGTime = 3.24.2017::19:1:57;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID d61583ec-2631-4e7e-b566-e6705a37d621;
+			- _myState = 8192;
+			- _name = "Controller_of_Distribution";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "Block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- _modifiedTimeWeak = 3.25.2017::14:34:2;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "systemContext_pkg.sbs";
+				- _subsystem = "systemContext_pkg";
+				- _class = "";
+				- _name = "overview";
+				- _id = GUID d85a3db1-c658-4437-b634-6315c064a616;
+			}
+			- _lastID = 1;
+			- weakCGTime = 3.25.2017::14:34:2;
+			- strongCGTime = 3.25.2017::14:34:2;
+			- Ports = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPort 
+					- _id = GUID fe483ef2-ef0b-47c8-8102-177596923942;
+					- _myState = 8192;
+					- _name = "p_Controller_of_Distribution";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::PortsAndFlows";
+							- _class = "";
+							- _name = "proxyPort";
+							- _id = GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a;
+						}
+					}
+					- _modifiedTimeWeak = 3.24.2017::19:26:19;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "systemContext_pkg.sbs";
+						- _subsystem = "systemContext_pkg";
+						- _class = "";
+						- _name = "Destination_coordinates";
+						- _id = GUID 0db4ba0c-8c38-4179-86a7-c91bee635236;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID c63b3875-6c76-45da-b611-101030c79e50;
+					- _myState = 10240;
+					- _name = "itsSensors";
+					- _modifiedTimeWeak = 3.24.2017::19:35:56;
+					- _multiplicity = "1..*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID bcdd5ce0-079c-41f0-8b38-1eccdae6c249;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 394aa6d1-de32-4167-91e7-499a8be0e426;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 64abe965-5843-4937-af8f-3b3a0dde3645;
+			- _myState = 8192;
+			- _name = "Driver";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "Block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- _modifiedTimeWeak = 3.25.2017::14:34:8;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "systemContext_pkg.sbs";
+				- _subsystem = "systemContext_pkg";
+				- _class = "";
+				- _name = "overview";
+				- _id = GUID d85a3db1-c658-4437-b634-6315c064a616;
+			}
+			- weakCGTime = 3.25.2017::14:34:8;
+			- strongCGTime = 3.25.2017::14:34:8;
+			- Ports = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPort 
+					- _id = GUID 7d142ea0-d0da-4324-b493-2ac1716cf774;
+					- _myState = 8192;
+					- _name = "p_Driver";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::PortsAndFlows";
+							- _class = "";
+							- _name = "proxyPort";
+							- _id = GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a;
+						}
+					}
+					- _modifiedTimeWeak = 3.25.2017::14:30:18;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "systemContext_pkg.sbs";
+						- _subsystem = "systemContext_pkg";
+						- _class = "";
+						- _name = "Enable_Or_Disable";
+						- _id = GUID bd43a24d-44e4-4091-8e59-b4904c87ec07;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 1d37300d-c809-4f48-a664-aa2e20010066;
+			- _myState = 8192;
+			- _name = "Truck";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "Block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- _modifiedTimeWeak = 3.25.2017::14:34:11;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "systemContext_pkg.sbs";
+				- _subsystem = "systemContext_pkg";
+				- _class = "";
+				- _name = "overview";
+				- _id = GUID d85a3db1-c658-4437-b634-6315c064a616;
+			}
+			- weakCGTime = 3.25.2017::14:34:11;
+			- strongCGTime = 3.25.2017::14:34:11;
+			- Ports = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPort 
+					- _id = GUID a4db7cfd-b3de-4a68-9dd6-ee08df65eda2;
+					- _myState = 8192;
+					- _name = "p_Truck";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::PortsAndFlows";
+							- _class = "";
+							- _name = "proxyPort";
+							- _id = GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a;
+						}
+					}
+					- _modifiedTimeWeak = 3.25.2017::14:18:52;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "systemContext_pkg.sbs";
+						- _subsystem = "systemContext_pkg";
+						- _class = "";
+						- _name = "Control_signals";
+						- _id = GUID 868e62df-445b-4eba-aab5-3b42c971623a;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID bcdd5ce0-079c-41f0-8b38-1eccdae6c249;
+			- _myState = 8192;
+			- _name = "Sensors";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "Block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- _modifiedTimeWeak = 3.25.2017::14:34:13;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "systemContext_pkg.sbs";
+				- _subsystem = "systemContext_pkg";
+				- _class = "";
+				- _name = "overview";
+				- _id = GUID d85a3db1-c658-4437-b634-6315c064a616;
+			}
+			- weakCGTime = 3.25.2017::14:34:13;
+			- strongCGTime = 3.25.2017::14:34:13;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 394aa6d1-de32-4167-91e7-499a8be0e426;
+					- _myState = 10240;
+					- _name = "itsController_of_Distribution";
+					- _modifiedTimeWeak = 3.24.2017::19:35:56;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID d61583ec-2631-4e7e-b566-e6705a37d621;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID c63b3875-6c76-45da-b611-101030c79e50;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID ca45fca7-f00b-477a-b030-b5b988e7f223;
+			- _myState = 8192;
+			- _name = "Environment";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "Block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- _modifiedTimeWeak = 3.25.2017::15:15:40;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "systemContext_pkg.sbs";
+				- _subsystem = "systemContext_pkg";
+				- _class = "";
+				- _name = "overview";
+				- _id = GUID d85a3db1-c658-4437-b634-6315c064a616;
+			}
+			- weakCGTime = 3.25.2017::15:15:40;
+			- strongCGTime = 3.25.2017::14:34:15;
+			- Ports = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPort 
+					- _id = GUID 355b29b7-cc9c-4161-bae9-680fbd5bec85;
+					- _myState = 8192;
+					- _name = "p_Environment";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::PortsAndFlows";
+							- _class = "";
+							- _name = "proxyPort";
+							- _id = GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a;
+						}
+					}
+					- _modifiedTimeWeak = 3.25.2017::15:15:40;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 9e0338c4-1d5c-4035-a893-5bd646d8a177;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 9e0338c4-1d5c-4035-a893-5bd646d8a177;
+			- _myState = 8192;
+			- _name = "Humans_and_obstacle";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::PortsAndFlows";
+					- _class = "";
+					- _name = "interfaceBlock";
+					- _id = GUID b2944aa1-daf4-4596-9707-d7ae5b2f2976;
+				}
+			}
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Actors = { IRPYRawContainer 
+		- size = 0;
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

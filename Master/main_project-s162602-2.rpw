@@ -10,83 +10,25 @@ I-Logix-RPY-Archive version 8.12.0 * 9728113
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -9;
-				- m_ptMaxPositionY = -38;
-				- m_nLeft = 64;
-				- m_nTop = 64;
-				- m_nRight = 1142;
-				- m_nBottom = 538;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _filename = "systemContext_pkg.sbs";
-				- _subsystem = "systemContext_pkg";
-				- _class = "";
-				- _name = "overview";
-				- _id = GUID d85a3db1-c658-4437-b634-6315c064a616;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1277 673 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 0;
-			- m_bIsActiveView = 1;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -9;
-				- m_ptMaxPositionY = -38;
-				- m_nLeft = 192;
-				- m_nTop = 192;
-				- m_nRight = 1297;
-				- m_nBottom = 666;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _filename = "BDD_pkg.sbs";
-				- _subsystem = "BDD_pkg";
-				- _class = "";
-				- _name = "block definition diagram_0";
-				- _id = GUID 6df72534-2040-4089-a045-bdf0d06acd58;
-			}
-			- _UpLeft = -10 230 ;
-			- _DownRight = 1925 1250 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 2;
-			- m_bIsActiveView = 1;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
 				- m_nFlags = 0;
 				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -9;
 				- m_ptMaxPositionY = -38;
-				- m_nLeft = 32;
-				- m_nTop = 32;
-				- m_nRight = 1110;
-				- m_nBottom = 506;
+				- m_nLeft = 96;
+				- m_nTop = 96;
+				- m_nRight = 1174;
+				- m_nBottom = 570;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IDiagram";
-				- _filename = "";
-				- _subsystem = "";
+				- _filename = "BDD_Main_pkg.sbs";
+				- _subsystem = "BDD_Main_pkg";
 				- _class = "";
-				- _name = "Model1";
-				- _id = GUID 755f64dc-2b10-462e-b2e1-ffb9b54e0b67;
+				- _name = "Main_Structure";
+				- _id = GUID ef4c47ec-80c5-4f7d-8226-187aadbe5533;
 			}
 			- _UpLeft = 0 0 ;
 			- _DownRight = 1035 402 ;
@@ -97,63 +39,121 @@ I-Logix-RPY-Archive version 8.12.0 * 9728113
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -9;
-				- m_ptMaxPositionY = -38;
-				- m_nLeft = 128;
-				- m_nTop = 128;
-				- m_nRight = 1233;
-				- m_nBottom = 602;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IUCDiagram";
-				- _filename = "UsecasesPkg.sbs";
-				- _subsystem = "UsecasesPkg";
-				- _class = "";
-				- _name = "usecasediagram_0";
-				- _id = GUID 4ba39209-224f-4254-b364-99418260a77d;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 10136 3837 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 1;
-			- m_bIsActiveView = 0;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
 				- m_nFlags = 2;
 				- m_showCmd = 3;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -9;
 				- m_ptMaxPositionY = -38;
-				- m_nLeft = 64;
-				- m_nTop = 64;
-				- m_nRight = 1142;
-				- m_nBottom = 538;
+				- m_nLeft = 128;
+				- m_nTop = 128;
+				- m_nRight = 1206;
+				- m_nBottom = 602;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IDiagram";
-				- _filename = "systemContext_pkg.sbs";
-				- _subsystem = "systemContext_pkg";
+				- _filename = "BDD_Main_pkg.sbs";
+				- _subsystem = "BDD_Main_pkg";
 				- _class = "";
-				- _name = "overview";
-				- _id = GUID d85a3db1-c658-4437-b634-6315c064a616;
+				- _name = "Obstacle_detection_system";
+				- _id = GUID fb17ff86-d164-4617-9e3a-c25395bd4afd;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1277 673 ;
+			- _DownRight = 2434 1200 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 			- m_bIsActiveView = 1;
 		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -9;
+				- m_ptMaxPositionY = -38;
+				- m_nLeft = 224;
+				- m_nTop = 224;
+				- m_nRight = 1302;
+				- m_nBottom = 698;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "BDD_Main_pkg.sbs";
+				- _subsystem = "BDD_Main_pkg";
+				- _class = "";
+				- _name = "Powertrain_controller";
+				- _id = GUID b016e59f-0eb6-4cb3-a10e-1f52e696ec8a;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1035 402 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+			- m_bIsActiveView = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -9;
+				- m_ptMaxPositionY = -38;
+				- m_nLeft = 192;
+				- m_nTop = 192;
+				- m_nRight = 1270;
+				- m_nBottom = 666;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "VD.sbs";
+				- _subsystem = "VD";
+				- _class = "";
+				- _name = "BDD_Path_estimation";
+				- _id = GUID 4f659775-e7b8-41a6-acd2-350470b6d51e;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1035 402 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+			- m_bIsActiveView = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -9;
+				- m_ptMaxPositionY = -38;
+				- m_nLeft = 160;
+				- m_nTop = 160;
+				- m_nRight = 1285;
+				- m_nBottom = 614;
+			}
+			- _wasOpenedOnCloseProject = 0;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStructureDiagram";
+				- _filename = "VD.sbs";
+				- _subsystem = "VD";
+				- _class = "Path_estimation_and_control";
+				- _name = "internal block diagram_VD";
+				- _id = GUID 5305a2ea-cd4c-4bee-acba-11074a9980a8;
+			}
+			- _UpLeft = -119 0 ;
+			- _DownRight = 3603 1314 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+			- m_bIsActiveView = 0;
+		}
 	}
-	- _fullName = "C:\\Users\\s169942\\Documents\\Automotive_project\\Automotive_project\\Automotive_project";
+	- _fullName = "C:\\Users\\s162602\\OneDrive\\main_project\\Master\\main_project";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}
