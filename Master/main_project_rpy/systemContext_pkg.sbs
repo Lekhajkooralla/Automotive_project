@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 	- _id = GUID 53664e79-fdd4-4e01-aa9d-fba1cfc418cf;
 	- _myState = 8192;
 	- _name = "systemContext_pkg";
-	- _modifiedTimeWeak = 3.26.2017::14:39:7;
-	- _lastID = 15;
+	- _modifiedTimeWeak = 5.30.2017::15:34:41;
+	- _lastID = 17;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
 		- value = 
@@ -4221,20 +4221,20 @@ Ydc9778eff6e1M3e4fZd5862223161af4169a05155e26abK5c6c1ba34fa7a8bc4c43aff9d70c4522
 			}
 		}
 	}
-	- weakCGTime = 3.26.2017::14:39:7;
+	- weakCGTime = 5.30.2017::15:34:41;
 	- strongCGTime = 3.25.2017::15:15:43;
 	- _defaultComposite = GUID 5a49eacb-fe71-4b36-8311-d24f0aba6f46;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
-		- size = 9;
+		- size = 10;
 		- value = 
 		{ IClass 
 			- _id = GUID 5a49eacb-fe71-4b36-8311-d24f0aba6f46;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.25.2017::15:17:20;
+			- _modifiedTimeWeak = 3.26.2017::14:39:7;
 			- _lastID = 5;
-			- weakCGTime = 3.25.2017::15:17:20;
+			- weakCGTime = 3.26.2017::14:39:7;
 			- strongCGTime = 3.25.2017::15:15:43;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4983,6 +4983,39 @@ Ydc9778eff6e1M3e4fZd5862223161af4169a05155e26abK5c6c1ba34fa7a8bc4c43aff9d70c4522
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			- weakCGTime = 1.2.1990::0:0:0;
 			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 43b416de-bd47-4ba4-ad7e-3838b83508f0;
+			- _myState = 10240;
+			- _name = "block_16";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "Block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- _modifiedTimeWeak = 5.30.2017::15:34:41;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 755f64dc-2b10-462e-b2e1-ffb9b54e0b67;
+			}
+			- weakCGTime = 5.30.2017::15:34:41;
+			- strongCGTime = 5.30.2017::15:34:41;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
